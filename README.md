@@ -28,8 +28,8 @@
 - Implement persistence for all the exe
 - Create a C++ executable to execute the VB Script
 - Implement some error handling for the DLL source code
-- Implement a feature to check a specified github file for what server IP and Port it should be used<br>to connect to the C2 server
+- Implement a feature to check a specified GitHub file for what server IP and Port it should be used<br>to connect to the C2 server
 - Make new folder that uses DLL Hollowing <br>
-    Reference: https://trustedsec.com/blog/burrowing-a-hollow-in-a-dll-to-hide -> Make it in C++
+    Reference: https://trustedsec.com/blog/burrowing-a-hollow-in-a-dll-to-hide → Make it in C++
 
 <br><b>Used CLion to develop this project.<b>
