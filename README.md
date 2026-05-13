@@ -32,4 +32,4 @@
 - Make new folder that uses DLL Hollowing <br>
     Reference: https://trustedsec.com/blog/burrowing-a-hollow-in-a-dll-to-hide -> Make it in C++
 
-<br>Project created in CLion
+<br><b>Used CLion to develop this project.<b>
